@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(185, 153, 121);
+}
+img{
+    max-width: 100%;
+}
+.titulo {
+    text-align: center; 
+    font-size: 2rem;
+    border: 15px beige solid;
+}
+.texto-centralizado{
+    text-align: center;
+}
+body, input, textarea {
+    font-family: 'Caprasimo', cursive;
+} 
