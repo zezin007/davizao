@@ -1,35 +1,78 @@
-body{
-    background-color: rgb(185, 153, 121);
+body {
+    background-color: #404350;
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 .titulo {
-    text-align: center; 
+    text-align: center;
     font-size: 2rem;
-    border: 15px beige solid;
+    border: 18px rgb(26, 26, 31) solid;
 }
-.texto-centralizado{
+
+.texto-centralizado {
     text-align: center;
 }
-body, input, textarea {
-    font-family: 'Caprasimo', cursive;
-} 
+
+body,
+input,
+textarea {
+    font-family: 'Geologica', sans-serif;
+}
+
 .fonte-pequena {
     font-size: 1.25rem;
 }
+
 .fonte-media {
     font-size: 2.5rem;
 }
+
 .fonte-grande {
     font-size: 3.5rem;
 }
-.margem-pequena{
+
+.margem-pequena {
     margin-top: 1rem;
 }
-.margem-media{
+
+.margem-media {
     margin-top: 2rem;
 }
-.margem-grande{
+
+.margem-grande {
     margin-top: 3.5rem;
 }
+
+.branco {
+    color: black;
+}
+
+.cinza-escuro {
+    color: rgb(26, 26, 31);
+}
+
+.sombra-titulo {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        -2px 2px 0px black,
+        2px 2px 0px black,
+        2px 0px 0px black;
+}
+
+.margem2 {
+    background: rgb(26, 26, 31);
+    color: #FFF;
+    padding: 13px;
+}
+.nazista{
+    background-color: black;
+}
+.nazista1{
+    color: red;
+}
+
+
