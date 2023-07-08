@@ -52,7 +52,20 @@
         <img src="./" width="300" height="300">
         <img src="./" width="300" height="300">
     </div>
+    <div class="custom-cursor">
+        <!-- Seu conteúdo aqui -->
+      </div>
+      
+    <script>
+        var cursor = document.querySelector('.custom-cursor');
 
+document.addEventListener('mousemove', function(e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.left = x + 'px';
+  cursor.style.top = y + 'px';
+});
+    </script>
 </body>
 
 </html
