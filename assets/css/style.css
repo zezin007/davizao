@@ -68,16 +68,28 @@ textarea {
     color: #FFF;
     padding: 13px;
 }
-.nazista{
+
+.nazista {
     background-color: black;
 }
-.nazista1{
+
+.nazista1 {
     color: red;
 }
-body {
+
+body,
+a {
     cursor: url('https://img.icons8.com/?size=64&id=A3Sd0imZjhLC&format=png'), auto;
-  }
-  body.clicked {
-    cursor: url('https://i.ibb.co/VY6m6Vq/gozador.png'), auto;
-  }
-  
+}
+
+#custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url('https://img.icons8.com/?size=64&id=A3Sd0imZjhLC&format=png');
+    background-size: cover;
+    pointer-events: none;
+    display: none;
+}

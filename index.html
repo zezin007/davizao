@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="custom-cursor"></div>
     <div class="texto-centralizado">
         <h2 class="branco fonte-media margem-pequena">
             Seja bem vindo
@@ -47,31 +48,26 @@
             <img src="./assets/img/relaxado.jfif" width="300" height="300">
         </a>
         <a href="./mazon.html">
-        <img src="./assets/img/pedra.jfif" width="300" height="300">
-    </a>
-    <a href="./tia.html">
-        <img src="./assets/img/primo.jfif" width="300" height="300">
-    </a>
-    <a href="./ze.html">
-        <img src="./assets/img/juju.jfif" width="300" height="300">
-    </a>
-        
+            <img src="./assets/img/pedra.jfif" width="300" height="300">
+        </a>
+        <a href="./tia.html">
+            <img src="./assets/img/primo.jfif" width="300" height="300">
+        </a>
+        <a href="./ze.html">
+            <img src="./assets/img/juju.jfif" width="300" height="300">
+        </a>
+
         <img src="./" width="300" height="300">
     </div>
-    <div class="custom-cursor">
-        <!-- Seu conteúdo aqui -->
-      </div>
-      
     <script>
         var cursor = document.querySelector('.custom-cursor');
-
-document.addEventListener('mousemove', function(e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  cursor.style.left = x + 'px';
-  cursor.style.top = y + 'px';
-});
+        document.addEventListener('mousemove', function (e) {
+            var x = e.clientX;
+            var y = e.clientY;
+            cursor.style.left = x + 'px';
+            cursor.style.top = y + 'px';
+        });
     </script>
+    <script src="./assets/js/cursor.js"></script>
 </body>
-
 </html
