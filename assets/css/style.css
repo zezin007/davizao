@@ -77,4 +77,7 @@ textarea {
 body {
     cursor: url('https://img.icons8.com/?size=64&id=A3Sd0imZjhLC&format=png'), auto;
   }
+  body.clicked {
+    cursor: url('./assets/img/gozador'), auto;
+  }
   
