@@ -88,8 +88,19 @@ a {
     left: 0;
     width: 32px;
     height: 32px;
-    background-image: url('https://img.icons8.com/?size=64&id=A3Sd0imZjhLC&format=png');
+    background-image: url('https://i.ibb.co/VY6m6Vq/gozador.png');
     background-size: cover;
+    pointer-events: none;
+    display: none;
+}
+
+#follower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    background-image: url('https://i.ibb.co/VY6m6Vq/gozador.png');
     pointer-events: none;
     display: none;
 }

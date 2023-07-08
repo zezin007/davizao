@@ -9,16 +9,24 @@ body.addEventListener("mouseup", () => {
     body.style.cursor = oldCursor;
 });
 
+document.addEventListener("touchstart", function (event) {
+    var touch = event.touches[0];
+    var follower = document.getElementById("follower");
+
+    follower.style.display = "block";
+    follower.style.left = touch.pageX + "px";
+    follower.style.top = touch.pageY + "px";
+});
+
 document.addEventListener("touchmove", function (event) {
     var touch = event.touches[0];
-    var customCursor = document.getElementById("custom-cursor");
+    var follower = document.getElementById("follower");
 
-    customCursor.style.display = "block";
-    customCursor.style.left = touch.pageX + "px";
-    customCursor.style.top = touch.pageY + "px";
+    follower.style.left = touch.pageX + "px";
+    follower.style.top = touch.pageY + "px";
 });
 
 document.addEventListener("touchend", function () {
-    var customCursor = document.getElementById("custom-cursor");
-    customCursor.style.display = "none";
+    var follower = document.getElementById("follower");
+    follower.style.display = "none";
 });
