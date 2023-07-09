@@ -11,6 +11,11 @@ img {
     font-size: 2rem;
     border: 18px rgb(26, 26, 31) solid;
 }
+.titulodeep {
+    text-align: center;
+    font-size: 2rem;
+    border: 18px rgb(0, 0, 0) solid;
+}
 
 .texto-centralizado {
     text-align: center;
@@ -69,14 +74,21 @@ textarea {
     padding: 13px;
 }
 
-.nazista {
+.deepweb {
     background-color: black;
 }
 
-.nazista1 {
+.deepweb1 {
     color: red;
 }
-
+body,
+input,
+textarea,
+h1,
+h2,
+h3 {
+    font-family: 'Creepster', cursive;
+}
 
 /*a {
     cursor: url('https://img.icons8.com/?size=64&id=A3Sd0imZjhLC&format=png'), auto;
@@ -104,11 +116,4 @@ textarea {
     pointer-events: none;
     display: none;
 }
-body,
-input,
-textarea,
-h1,
-h2,
-h3 {
-    font-family: 'Creepster', cursive;
-}
+
