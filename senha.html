@@ -7,22 +7,16 @@
     <title>Digite a Senha</title>
 </head>
 <script>
-    // Coloque o código JavaScript aqui
-    // Obtém a entrada do usuário
     var senha = prompt("Digite a senha:");
-
-    // Verifica a senha e redireciona para a página correta
     if (senha === "Nazista2469#") {
-      // Redireciona para a outra parte do site
-      window.location.href = "./aviso.html";
+        window.location.href = "./aviso.html";
     } else if (senha === null) {
-      // O usuário clicou em "Cancelar" ou pressionou Esc
-      alert("Operação cancelada.");
+        alert("Operação cancelada.");
     } else {
-      // Senha incorreta, abre uma página de senha incorreta
-      window.location.href = "./gemidao.html";
+        window.location.href = "./gemidao.html";
     }
-  </script>
+</script>
+
 <body>
 
 </body>

@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Os cuecas 🩲</title>
+    <style>
+        .invisible-button {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -57,9 +65,14 @@
         <a href="./ze.html">
             <img src="./assets/img/juju.jfif" width="300" height="300">
         </a>
-
-        <img src="./" width="300" height="300">
+        <a href="./gabriel.html">
+            <img src="./assets/img/aranha.jpeg" width="300" height="300">
+        </a>
     </div>
+
+    <!-- Botão invisível -->
+    <button id="invisibleButton" class="invisible-button"></button>
+
     <script>
         var cursor = document.querySelector('.custom-cursor');
         document.addEventListener('mousemove', function (e) {
@@ -68,7 +81,19 @@
             cursor.style.left = x + 'px';
             cursor.style.top = y + 'px';
         });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Obtém a referência do botão invisível
+            var button = document.getElementById('invisibleButton');
+
+            // Adiciona um manipulador de evento de clique ao botão invisível
+            button.addEventListener('click', function () {
+                // Redireciona para a outra página
+                window.location.href = 'outra_pagina.html';
+            });
+        });
     </script>
     <script src="./assets/js/cursor.js"></script>
 </body>
-</html
+
+</html>
