@@ -1,4 +1,4 @@
-const body = document.querySelector("body")
+/*const body = document.querySelector("body")
 const oldCursor = body.style.cursor;
 
 body.addEventListener("mousedown", () => {
