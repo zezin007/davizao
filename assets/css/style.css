@@ -104,3 +104,11 @@ a {
     pointer-events: none;
     display: none;
 }
+body,
+input,
+textarea,
+h1,
+h2,
+h3 {
+    font-family: 'Creepster', cursive;
+}
