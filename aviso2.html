@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <div style="text-align: center;">
+        <h1 style="color: red;">Imagens vazadas dos cuecas</h1>
+        <h1 style="color: red;">deseja visitar?</h1>
+        <button class="btn" onclick="redirecionar()">Sim</button>
+        <button class="btn" onclick="redirecionarr()">Não</button>
+    </div>
+    
+    <style>
+        /* Estilos para centralizar o botão */
+        html, body {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Estilos para o botão */
+        .btn {
+            background-color: red;
+            color: white;
+            font-size: 24px;
+            padding: 16px 32px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+        function redirecionar() {
+            // Redirecionar para outra página do site
+            window.location.href = "./grupo.html";
+        }
+    </script>
+    <script>
+        function redirecionarr() {
+            // Redirecionar para outra página do site
+            window.location.href = "./index.html";
+        }
+    </script>
+</body>
+</html>
